@@ -1,0 +1,30 @@
+.article__main {
+  padding: var(--default-padding) 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__text {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.article__image {
+  margin-top: var(--default-padding);
+  width: 100%;
+}
+.article__grid__2 {
+  margin-top: var(--default-padding);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: var(--default-padding);
+}
+.article__grid__3 {
+  margin-top: var(--default-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: var(--default-padding);
+}

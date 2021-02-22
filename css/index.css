@@ -1,0 +1,20 @@
+.index__body {
+  background-color: var(--background-color);
+  padding-right: 75px;
+}
+.index__list {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr 3fr;
+  column-gap: 40px;
+  padding: var(--default-padding) 0px;
+  border-bottom: var(--border);
+}
+.index__list__title > h5 {
+  line-height: 1.1;
+}
+.index__list__caption {
+  line-height: 1.1;
+}
+.index__list__image img:hover {
+  filter: blur(5px);
+}
