@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "index.css";
+@import "menu.css";
 @import "article.css";
 
 @import "components/header.css";
@@ -22,43 +22,47 @@ body {
 
 /* main */
 .home__main {
-  padding: 275px 140px 0px 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.home__text {
-  text-align: center;
-  line-height: 1.2;
-}
 .home__image {
   fill: var(--point-color);
   position: absolute;
-  opacity: 0;
-  z-index: -99;
+  display: none;
+  z-index: -1;
+}
+.home__text {
+  text-align: justify;
+  letter-spacing: -0.005em;
+  word-spacing: -0.005em;
+  line-height: 1.2;
+}
+.home__text svg {
+  width: 100%;
+  height: 100%;
 }
 .home__image__explorer,
 .home__image__collector,
 .home__image__translator {
-  fill: var(--point-color);
   position: absolute;
-  top: 200px;
-  left: 100px;
-  right: 100px;
-  bottom: 200px;
-  visibility: hidden;
-  opacity: 0.75;
+  top: 275px;
+  bottom: 275px;
+  left: 500px;
+  right: 500px;
+  display: none;
   z-index: -1;
+  opacity: 0.75;
 }
 .explorer:hover + .home__image__explorer {
-  visibility: visible;
+  display: block;
 }
 .collector:hover + .home__image__collector {
-  visibility: visible;
+  display: block;
 }
 .translator:hover + .home__image__translator {
-  visibility: visible;
+  display: block;
 }
 span {
   font-style: italic;

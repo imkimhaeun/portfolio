@@ -1,8 +1,8 @@
 .home__footer {
   position: absolute;
   bottom: 0;
-  left: 40px;
-  right: 40px;
+  left: var(--default-padding);
+  right: var(--default-padding);
 }
 .home__footer svg {
   width: 100%;
@@ -21,7 +21,7 @@
   100% {
   }
 }
-.home__footer div {
+.home__footer__text {
   border-top: var(--border);
   display: flex;
   justify-content: center;
@@ -33,7 +33,6 @@
   justify-content: center;
   padding: 15px 0px;
 }
-
 .article__footer {
   border-top: var(--border);
   display: flex;

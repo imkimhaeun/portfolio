@@ -2,10 +2,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-header svg {
-  width: 70px;
-  height: 60px;
-}
 header h1:hover {
   color: var(--point-color);
 }
@@ -37,7 +33,7 @@ header h1:hover {
   font-size: 25px;
   border-radius: 40px;
   border: var(--border);
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  /*transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;*/
 }
 .header__btn:hover {
   background-color: var(--point-color);
@@ -49,7 +45,7 @@ header h1:hover {
 
 .header__works {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1.07fr;
   padding: 10px 0px;
   border-bottom: var(--border);
 }

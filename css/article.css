@@ -17,14 +17,14 @@
   width: 100%;
 }
 .article__grid__2 {
-  margin-top: var(--default-padding);
+  margin-top: var(--grid-gap);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: var(--default-padding);
+  column-gap: var(--grid-gap);
 }
 .article__grid__3 {
-  margin-top: var(--default-padding);
+  margin-top: var(--grid-gap);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: var(--default-padding);
+  column-gap: var(--grid-gap);
 }
