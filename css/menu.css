@@ -4,13 +4,12 @@
 }
 .index__list {
   display: grid;
-  grid-template-columns: 1fr 2.5fr 4fr;
-  column-gap: var(--default-padding);
+  grid-template-columns: 1fr 1fr;
   padding: var(--default-padding) 0px;
   border-bottom: var(--border);
 }
-.index__list__title > h5 {
-  line-height: 1.1;
+.index__list__title {
+  line-height: 1.2;
 }
 .index__list__caption {
   line-height: 1.2;

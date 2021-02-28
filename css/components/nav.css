@@ -18,10 +18,11 @@ nav > div {
 }
 nav > div:first-child {
   background-color: var(--point-color);
-  color: var(--background-color);
 }
 nav > div:last-child {
   background-color: var(--font-color);
-  color: var(--background-color);
   transform: rotate(180deg);
+}
+nav h2 {
+  color: var(--background-color);
 }

@@ -4,19 +4,24 @@
   left: var(--default-padding);
   right: var(--default-padding);
 }
-.home__footer svg {
-  width: 100%;
-  fill: var(--font-color);
-  animation: float 2s ease-in-out infinite;
+.home__footer__image {
+  height: 27vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  font-family: eckmannpsych-medium, sans-serif;
+  color: var(--font-color);
+  animation: float 3s ease-in-out infinite;
 }
-.home__footer svg:hover {
-  fill: var(--point-color);
+.home__footer__image:hover {
+  color: var(--point-color);
 }
 @keyframes float {
   0% {
   }
   50% {
-    transform: translateY(15px);
+    transform: translateY(-25px);
   }
   100% {
   }

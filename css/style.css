@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/wxf0pgo.css");
 @import "reset.css";
 @import "menu.css";
 @import "article.css";
@@ -12,7 +13,6 @@
 
 body {
   background-color: var(--background-color);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 100%;
   height: 100vh;
   padding-top: 15px;
@@ -27,16 +27,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.home__image {
-  fill: var(--point-color);
-  position: absolute;
-  display: none;
-  z-index: -1;
-}
 .home__text {
-  text-align: justify;
-  letter-spacing: -0.005em;
-  word-spacing: -0.005em;
+  padding-top: 250px;
+  width: 75%;
+  text-align: center;
   line-height: 1.2;
 }
 .home__text svg {
@@ -47,13 +41,13 @@ body {
 .home__image__collector,
 .home__image__translator {
   position: absolute;
-  top: 275px;
-  bottom: 275px;
-  left: 500px;
-  right: 500px;
+  top: 170px;
+  bottom: 350px;
+  left: 200px;
+  right: 200px;
   display: none;
   z-index: -1;
-  opacity: 0.75;
+  opacity: 0.2;
 }
 .explorer:hover + .home__image__explorer {
   display: block;
@@ -65,7 +59,6 @@ body {
   display: block;
 }
 span {
-  font-style: italic;
 }
 span:hover {
   text-decoration: underline;
