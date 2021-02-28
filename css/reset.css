@@ -134,8 +134,8 @@ table {
 :root {
   --border: 2px solid var(--font-color);
   --background-color: whitesmoke;
-  --font-color: black;
-  --point-color: cornflowerblue;
+  --font-color: #7e7250;
+  --point-color: #41907b;
   --default-padding: 25px;
   --grid-gap: 15px;
 }
@@ -147,12 +147,12 @@ table {
   color: var(--background-color);
 }
 html {
-  cursor: url("https://static.cargo.site/images/up.png"), default;
+  cursor: default;
   -webkit-font-smoothing: antialiased;
 }
 a {
   text-decoration: none;
-  cursor: crosshair;
+  cursor: url("https://static.cargo.site/images/up.png"), default;
 }
 img {
   width: 100%;
@@ -183,10 +183,13 @@ h3 {
   font-size: 30px;
 }
 h4 {
-  font-size: 30px;
+  font-size: 25px;
 }
 h5 {
   font-size: 20px;
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h6 {
   font-size: 15px;
