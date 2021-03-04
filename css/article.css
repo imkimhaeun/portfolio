@@ -1,5 +1,5 @@
 .article__main {
-  padding: var(--default-padding) 0px;
+  padding: var(--grid-gap) 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +10,8 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  column-gap: var(--grid-gap);
 }
-
 .article__title {
   line-height: 1.2;
 }
@@ -19,11 +19,11 @@
   line-height: 1.2;
 }
 .article__caption h5:not(:first-child) {
-  text-indent: 40px;
+  text-indent: 50px;
 }
 
 .article__image {
-  margin-top: var(--default-padding);
+  margin-top: var(--grid-gap);
   width: 100%;
 }
 .article__grid__2 {

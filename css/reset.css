@@ -133,10 +133,10 @@ table {
 /* custom */
 :root {
   --border: 2px solid var(--font-color);
-  --background-color: #fffef9;
-  --font-color: #41907b;
-  --point-color: cornflowerblue;
-  --default-padding: 25px;
+  --background-color: #1e1d1c;
+  --font-color: #be8759;
+  --point-color: #ff590a;
+  --default-padding: 30px;
   --grid-gap: 15px;
 }
 ::-webkit-scrollbar {
@@ -147,12 +147,14 @@ table {
   color: var(--background-color);
 }
 html {
-  cursor: default;
+  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDRfMjIx/MDAxNjE0ODYxMTI2NDA1.w6_CN-v258mUOVziC9KQr4cVeFssGoh8UoSZI5ZNOxwg.xQ8Ly5paEsZUoL_MUvyQ6acF11HXKXjqEo1Cl3mFHoog.PNG.qkddnfdlgkxm/cursor-01.png?type=w773"),
+    pointer;
   -webkit-font-smoothing: antialiased;
 }
 a {
+  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDRfMjI3/MDAxNjE0ODYxMTI2NDA4.XY19yu4wIbV12vrV16-achW8NiDmMc6Ff-xfmaa0s08g.8vDLZ7O8s9BOacalPLsh_P4_5pyZmnAs1ZqU54fnEJ0g.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
+    pointer;
   text-decoration: none;
-  cursor: url("https://static.cargo.site/images/up.png"), default;
 }
 img {
   width: 100%;
@@ -173,20 +175,19 @@ h6 {
 }
 /*title*/
 h1 {
-  font-size: 40px;
+  font-size: 4vh;
   font-family: eckmannpsych-medium, sans-serif;
-  font-weight: 400;
-  /*transition: color 0.3s ease-in-out;*/
-}
-/*nav*/
-h2 {
-  font-size: 30px;
+  transition: font-size 0.5s ease-in-out;
 }
 h3 {
-  font-size: 30px;
+  font-size: 3vh;
 }
 /*text*/
-h5,
+h5 {
+  font-size: 2vh;
+}
 h6 {
-  font-size: 20px;
+  font-size: 2vh;
+  font-family: eckmannpsych-medium, sans-serif;
+  color: var(--point-color);
 }
