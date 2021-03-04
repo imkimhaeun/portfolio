@@ -153,7 +153,7 @@ html {
 }
 a {
   cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfNzQg/MDAxNjE0ODcxNzYxOTY1.xvvKraaRylWdUPW6d6NszedAdKvJUo_NtpgFoEkPxRAg.QFFQir8260lfHrA3nkoNOCEvFaPfaHG18clPaXWM-E0g.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
-    pointer;
+    crosshair;
   text-decoration: none;
 }
 img {
