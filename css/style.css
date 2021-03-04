@@ -50,7 +50,6 @@ span:hover {
   position: absolute;
   right: var(--default-padding);
   display: none;
-  z-index: -1;
   opacity: 0.75;
 }
 .explorer:hover + .about__image__explorer {
