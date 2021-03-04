@@ -132,7 +132,7 @@ table {
 /* custom */
 /* custom */
 :root {
-  --border: 2px solid var(--font-color);
+  --border: 2.5px solid var(--font-color);
   --background-color: #1e1d1c;
   --font-color: #be8759;
   --point-color: #ff590a;
