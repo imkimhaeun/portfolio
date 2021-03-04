@@ -135,7 +135,7 @@ table {
   --border: 2.5px solid var(--font-color);
   --background-color: #1e1d1c;
   --font-color: #be8759;
-  --point-color: #ff590a;
+  --point-color: #7c9c9f;
   --default-padding: 30px;
   --grid-gap: 15px;
 }
@@ -152,7 +152,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 a {
-  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDRfMjI3/MDAxNjE0ODYxMTI2NDA4.XY19yu4wIbV12vrV16-achW8NiDmMc6Ff-xfmaa0s08g.8vDLZ7O8s9BOacalPLsh_P4_5pyZmnAs1ZqU54fnEJ0g.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
+  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMTMw/MDAxNjE0ODcwNTY2NTcz.6m_O_rgrlyg5rG1vjmaT2RGZzQSg-FzBkCpjj_FhXykg.YjySNIbthTBKU_ov4FLbGwdcmVRS2Nm80Y0xKiFukcog.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
     pointer;
   text-decoration: none;
 }
