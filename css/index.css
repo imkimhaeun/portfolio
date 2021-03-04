@@ -6,17 +6,7 @@
   font-size: 20vw;
   font-family: eckmannpsych-medium, sans-serif;
   color: var(--font-color);
-  /*animation: float 3s ease-in-out infinite;*/
   padding-bottom: 45px;
-}
-@keyframes float {
-  0% {
-  }
-  50% {
-    color: var(--point-color);
-  }
-  100% {
-  }
 }
 
 .index__list {
