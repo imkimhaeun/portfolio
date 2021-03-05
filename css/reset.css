@@ -133,9 +133,9 @@ table {
 /* custom */
 :root {
   --border: 2px solid var(--font-color);
-  --background-color: #1e1e1d;
-  --font-color: #a6abdf;
-  --point-color: #ffdb77;
+  --background-color: #212121;
+  --font-color: #a49877;
+  --point-color: #a6abdf;
   --default-padding: 30px;
   --grid-gap: 15px;
 }
