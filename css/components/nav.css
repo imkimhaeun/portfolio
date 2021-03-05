@@ -23,6 +23,6 @@ nav > div:last-child {
   background-color: var(--font-color);
   transform: rotate(180deg);
 }
-nav h2 {
+nav h3 {
   color: var(--background-color);
 }

@@ -129,13 +129,14 @@ table {
 }
 
 /* custom */
-/* custom */
-/* custom */
 :root {
-  --border: 2px solid var(--font-color);
-  --background-color: #212121;
+  --border: 2px solid var(--point-color);
+  --background-color: rgb(255, 252, 243);
+  --font-color: black;
+  --point-color: #5b61a8;
+  /*--background-color: #212121;
   --font-color: #c4a673;
-  --point-color: #a6abdf;
+  --point-color: #a6abdf;*/
   --default-padding: 30px;
   --grid-gap: 15px;
 }
@@ -175,9 +176,13 @@ h6 {
 }
 /*title*/
 h1 {
-  font-size: 4vh;
-  font-family: eckmannpsych-medium, sans-serif;
-  transition: font-size 0.5s ease-in-out;
+  color: var(--point-color);
+  font-size: 3vh;
+  font-family: termina, sans-serif;
+  font-weight: 500;
+}
+h1:hover {
+  color: var(--font-color);
 }
 h3 {
   font-size: 3vh;
@@ -187,7 +192,8 @@ h5 {
   font-size: 2vh;
 }
 h6 {
-  font-size: 2vh;
-  font-family: eckmannpsych-medium, sans-serif;
   color: var(--point-color);
+  font-size: 1.5vh;
+  font-family: termina, sans-serif;
+  font-weight: 500;
 }

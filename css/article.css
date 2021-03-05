@@ -1,9 +1,9 @@
-.article__main {
-  padding: var(--grid-gap) 0px;
+.article__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: var(--grid-gap) 0px;
 }
 
 .article__text {

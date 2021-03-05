@@ -1,12 +1,12 @@
 .header__title {
   z-index: 99;
+  position: fixed;
+  left: var(--default-padding);
+  right: var(--default-padding);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
   padding-bottom: 10px;
   border-bottom: var(--border);
-}
-
-header h1:hover {
-  color: var(--point-color);
 }
