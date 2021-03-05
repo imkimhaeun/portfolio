@@ -133,9 +133,9 @@ table {
 /* custom */
 :root {
   --border: 2px solid var(--font-color);
-  --background-color: #1e1d1c;
-  --font-color: #be8759;
-  --point-color: #7c9c9f;
+  --background-color: #1e1e1d;
+  --font-color: #a6abdf;
+  --point-color: #ffda76;
   --default-padding: 30px;
   --grid-gap: 15px;
 }
@@ -147,12 +147,12 @@ table {
   color: var(--background-color);
 }
 html {
-  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMTI3/MDAxNjE0ODcxNzYxOTYy.r70s_V4lYvo2XEaiU3A4XwSabPMvRfKiZI-3tdxNJ9cg.zF5Su5dGT6t-uwV86YqFLdNdjHEdLY5LB0YgkB_9N04g.PNG.qkddnfdlgkxm/cursor-01.png?type=w773"),
+  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMjAw/MDAxNjE0OTE1MjI5OTU0.ZVDh8HvLo-3mjCDLeWRmpOoDjF4hleqqF92nNhIZHVsg.UnYa_YGe__sii3Wbz7t61REE0-NTGy2E24h8HZMhENsg.PNG.qkddnfdlgkxm/cursor-01.png?type=w773"),
     default;
   -webkit-font-smoothing: antialiased;
 }
 a {
-  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfNzQg/MDAxNjE0ODcxNzYxOTY1.xvvKraaRylWdUPW6d6NszedAdKvJUo_NtpgFoEkPxRAg.QFFQir8260lfHrA3nkoNOCEvFaPfaHG18clPaXWM-E0g.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
+  cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMTk4/MDAxNjE0OTE1MjI5OTU0.K90VDMcltZgNmF8dW0q7Jg4A6M2dWWfHtccb2nEfrisg.27h3EjEmJx5yrCHeBkkl9W7bDcTwS_mS7ZNgFu5F0kcg.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
     crosshair;
   text-decoration: none;
 }
