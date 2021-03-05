@@ -131,7 +131,7 @@ table {
 /* custom */
 :root {
   --border: 2px solid var(--point-color);
-  --background-color: rgb(255, 252, 243);
+  --background-color: #fffcf3;
   --font-color: black;
   --point-color: #5b61a8;
   /*--background-color: #212121;
@@ -193,7 +193,7 @@ h5 {
 }
 h6 {
   color: var(--point-color);
-  font-size: 1.5vh;
+  font-size: 1.75vh;
   font-family: termina, sans-serif;
   font-weight: 500;
 }

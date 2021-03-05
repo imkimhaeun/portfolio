@@ -40,13 +40,6 @@ main {
 span {
   color: var(--point-color);
 }
-span:hover {
-  text-decoration: underline;
-}
-svg {
-  width: 100%;
-  height: 100%;
-}
 .about__image__explorer,
 .about__image__collector,
 .about__image__translator {

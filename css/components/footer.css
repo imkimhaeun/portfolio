@@ -1,10 +1,10 @@
 .index__footer,
 .article__footer,
 .about__footer {
-  border-top: var(--border);
   display: flex;
   justify-content: center;
   padding: var(--grid-gap) 0px;
+  border-top: var(--border);
 }
 .about__footer {
   position: absolute;

@@ -1,19 +1,25 @@
 .bg {
-  background-color: black;
+  background-color: var(--font-color);
 }
 .index__title {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 200px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
   font-family: eckmannpsych-medium, sans-serif;
   color: var(--background-color);
-  transition: color 2s ease-in-out;
+}
+.index__title img {
+  width: 40%;
 }
 .index__title:hover {
+  filter: blur(5px);
 }
-
+/*works*/
+/*works*/
 /*works*/
 .index__list__container {
   display: grid;
