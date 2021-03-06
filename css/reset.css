@@ -149,12 +149,12 @@ table {
 }
 html {
   cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMjAw/MDAxNjE0OTE1MjI5OTU0.ZVDh8HvLo-3mjCDLeWRmpOoDjF4hleqqF92nNhIZHVsg.UnYa_YGe__sii3Wbz7t61REE0-NTGy2E24h8HZMhENsg.PNG.qkddnfdlgkxm/cursor-01.png?type=w773"),
-    default;
+    default !important;
   -webkit-font-smoothing: antialiased;
 }
 a {
   cursor: url("https://postfiles.pstatic.net/MjAyMTAzMDVfMTk4/MDAxNjE0OTE1MjI5OTU0.K90VDMcltZgNmF8dW0q7Jg4A6M2dWWfHtccb2nEfrisg.27h3EjEmJx5yrCHeBkkl9W7bDcTwS_mS7ZNgFu5F0kcg.PNG.qkddnfdlgkxm/cursor-02.png?type=w773"),
-    crosshair;
+    crosshair !important;
   text-decoration: none;
 }
 img {
