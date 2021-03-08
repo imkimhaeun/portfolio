@@ -8,5 +8,5 @@
   align-items: center;
   padding-top: 15px;
   padding-bottom: 10px;
-  border-bottom: var(--border);
+  /*border-bottom: var(--border);*/
 }

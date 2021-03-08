@@ -127,10 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /* custom */
 :root {
-  --border: 2px solid var(--point-color);
+  --border: 2px dotted var(--point-color);
   --background-color: #fffcf3;
   --font-color: black;
   --point-color: #5b61a8;
