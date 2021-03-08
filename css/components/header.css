@@ -1,4 +1,4 @@
-.header__title {
+header {
   z-index: 99;
   position: fixed;
   left: var(--default-padding);
