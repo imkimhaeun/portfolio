@@ -129,7 +129,7 @@ table {
 }
 /* custom */
 :root {
-  --border: 2px dotted var(--point-color);
+  --border: 1px solid var(--point-color);
   --background-color: #fffcf3;
   --font-color: black;
   --point-color: #5b61a8;

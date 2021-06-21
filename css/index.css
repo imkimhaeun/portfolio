@@ -1,18 +1,10 @@
-.bg {
-}
 .index__title {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 150px;
-  font-family: eckmannpsych-medium, sans-serif;
-  color: var(--background-color);
 }
 .index__title img {
-  width: 40%;
+  width: 80%;
 }
 .index__title:hover {
   filter: blur(3px);
